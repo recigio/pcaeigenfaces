@@ -29,13 +29,12 @@ Python, pip, opencv-contrib-python
  Importante instalar somente o opencv-contrib-python e não o opencv.
  
  
- 
  ##### COMO USAR
  
  Para rodar, no terminal, dentro da pasta do projeto executar:
  
   ```
- python "pcaeigenfaces.py";
+ python pcaeigenfaces.py
   ```
  
  Também existe um arquivo no formato do jupyter notebook com o mesmo nome acima que pode ser usado.
