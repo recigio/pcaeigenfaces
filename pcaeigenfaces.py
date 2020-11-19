@@ -1,7 +1,6 @@
 ### open cv import
 import cv2 as cv
 import numpy as np
-import sys
 
 ## classes do projeto
 from dataset_handler import ImageHandler
@@ -36,8 +35,8 @@ for number_components in range(min_comps, max_comps):
 
     model.train(src, np.asarray(labels))
 
-    max_distance = sys.float_info.max
-    min_distance = sys.float_info.min
+    max_distance = 0
+    min_distance = 99999999999
     
     mean_distance = 0
     corrects = 0
@@ -65,6 +64,6 @@ for number_components in range(min_comps, max_comps):
     print(f"Distância mínima: {min_distance}")
     print(f"Distância máxima: {max_distance}")
     print(f"Distância média: {mean_distance}")
-    print(f"Acurracia: {accuracy}")
+    print(f"Acurracia: {accuracy:.2f}%")
     print(f"Acertos: {corrects}")
     print("-------------------")
