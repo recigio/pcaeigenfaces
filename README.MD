@@ -1,3 +1,6 @@
+Projeto exemplo fazendo uso de opencv e eigenfaces em python.
+
+Disciplina de aprendizado não supervizionado da Universidade Regional de Blumenau.
 
 REQUISITOS
 
