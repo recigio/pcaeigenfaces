@@ -2,6 +2,11 @@
 
 #### Disciplina de aprendizado não supervizionado da Universidade Regional de Blumenau.
 
+O objeto do trabalho é desenvolver e aplicar a Análise de Componentes Principais (PCA) para fazer um algoritmo que faça o reconhecimento visual de uma base imagens.
+A base de dados base a ser usada é a (https://github.com/lobokoch/unsupervised-learning/blob/main/dataset/ORL.rar).
+Esse projeto ainda conta com mais 10 imagens pessoais, extras, para ttestar o algoritmo.
+Como amostragem, foi utilizado um holdout de 70% das imagens para treinamento de 30% para testes.
+
 ##### REQUISITOS
 
 Python, pip, opencv-contrib-python 
