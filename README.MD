@@ -1,8 +1,8 @@
-Projeto exemplo fazendo uso de opencv e eigenfaces em python.
+### Projeto exemplo fazendo uso de opencv e eigenfaces em python.
 
-Disciplina de aprendizado não supervizionado da Universidade Regional de Blumenau.
+#### Disciplina de aprendizado não supervizionado da Universidade Regional de Blumenau.
 
-REQUISITOS
+##### REQUISITOS
 
 Python, pip, opencv-contrib-python 
 
