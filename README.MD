@@ -16,18 +16,27 @@ Python, pip, opencv-contrib-python
    
 - Instalar pip para o python - https://phoenixnap.com/kb/install-pip-windows
    - Faça download do https://bootstrap.pypa.io/get-pip.py em uma pasta de sua escolha
-   - Abra o terminal (cmd) e dentro da pasta em que se encontra o download execute python get-pip.py"
-   
+   - Abra o terminal (cmd) e dentro da pasta em que se encontra o download execute:
+   ``` 
+   python get-pip.py"
+   ```
+
 - Instalar o opencv contrib - https://pypi.org/project/opencv-contrib-python/
-   - pip install opencv-contrib-python
-   
-   Importante instalar somente o opencv-contrib-python e não o opencv.
+ ```
+ pip install opencv-contrib-python
+ ```
+ 
+ Importante instalar somente o opencv-contrib-python e não o opencv.
  
  
  
  ##### COMO USAR
  
- Para rodar, no terminal, dentro da pasta do projeto executar python "pcaeigenfaces.py";
+ Para rodar, no terminal, dentro da pasta do projeto executar:
+ 
+  ```
+ python "pcaeigenfaces.py";
+  ```
  
  Também existe um arquivo no formato do jupyter notebook com o mesmo nome acima que pode ser usado.
  
